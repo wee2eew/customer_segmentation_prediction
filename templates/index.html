@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer segmentation prediction</title>
+</head>
+<body>
+<form action="/predict" method="post">
+    <h2>ทำนายการแบ่งกลุ่มลูกค้า</h2><br />
+    age : <input type="text" name ="user_age"> <br/>
+    annual_income : <input type="text" name ="user_annual_income"> <br/>
+    spending_score : <input type="text" name ="user_spending_score"> <br/>
+    <input type="submit" value="predict">
+</form>
+</body>
+</html>
